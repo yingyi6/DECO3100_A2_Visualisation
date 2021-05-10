@@ -1,0 +1,61 @@
+country,year,mortality
+
+China,1850,417.44
+China,1855,457.74
+China,1860,482.1
+China,1865,440.13
+China,1870,422.91
+China,1875,417.44
+China,1880,417.44
+China,1885,417.44
+China,1890,417.44
+China,1895,417.43
+China,1900,416.99
+China,1905,415.19
+China,1910,411.78
+China,1915,407.15
+China,1920,402.25
+China,1925,397.35
+China,1930,392.46
+China,1935,370.01
+China,1940,341.12
+China,1945,327.77
+China,1950,320.14
+China,1955,205
+China,1960,204
+China,1965,210
+China,1970,115.65
+China,1975,92.27
+China,1980,74.55
+China,1985,61.6
+China,1990,51.56
+China,1995,44.48
+China,2000,35.71
+China,2005,26.09
+China,2010,18.7
+China,2017,13.16
+
+
+
+China1,1990,51.56
+China1,1995,44.48
+China1,2000,35.71
+China1,2005,26.09
+China1,2010,18.7
+China1,2017,13.16
+
+Urban China,1991,20.90
+Urban China,1995,16.40
+Urban China,2000,13.80
+Urban China,2005,10.70
+Urban China,2010,7.3
+Urban China,2015,5.8
+Urban China,2019,4.1
+
+Rural China,1991,71.1
+Rural China,1995,51.1
+Rural China,2000,45.7
+Rural China,2005,25.7
+Rural China,2010,20.10
+Rural China,2015,12.9
+Rural China,2019,9.4

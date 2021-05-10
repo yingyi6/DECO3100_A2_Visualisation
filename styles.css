@@ -1,0 +1,393 @@
+/* TYPOGRAPHY from https://type-scale.com/ */
+
+html {font-size: 100%;} /*16px*/
+
+body {
+  background: linear-gradient(0deg, rgba(255,255,255,0.13) 0%, rgba(207,235,236,1) 100%);
+  font-family: 'helvetica', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+  margin:auto;
+  height: 9000px;
+  background-repeat: no-repeat; /*this lets the background stay in place even when scrolling*/
+  background-attachment: fixed;
+}
+
+p {margin-bottom: 1rem;}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'helvetica', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.052rem;
+}
+
+h2 {font-size: 2.441rem;}
+
+h3 {font-size: 1.953rem;}
+
+h4 {font-size: 1.563rem;}
+
+h5 {font-size: 1.25rem;}
+
+small, .text_small {font-size: 0.8rem;}
+
+
+/*HEADER STYLES*/
+
+.header{
+    width:auto;
+    height: 1000px;
+}
+
+hr{
+    background: #15243d;
+    height:3px;
+    border: none;
+}
+
+.header-text{
+    text-align: center;
+    position: absolute; 
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); /* This positions the text in the middle of the header*/
+    color: #15243d;
+    
+}
+
+.header-text p{
+    padding-top:200px;
+}
+.header-text img{
+    width: 20px;
+}
+
+.definition{
+    text-align: center;
+    padding:350px;
+    margin: auto;
+    color: #15243d;
+}
+
+.definition-text {
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/*MAIN CONTENT*/
+
+.overview{
+    text-align: center;
+    padding:130px;
+    margin: auto;
+}
+
+.overview-text{
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 300px;
+    color:#15243d;
+}
+
+
+/*VISUALISATION 1*/
+
+.vis1-cont{
+    align-items: center;
+    margin:auto;
+    height: 2450px;
+    max-width: 1200px;
+}
+.vis1{
+    width: 650px;
+    height: 800px;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+.vis1 p{
+    padding-top:790px;
+    color: rgb(136, 136, 136);
+}
+
+/*Styling the scrolling text*/
+
+.vis-text{
+    background-color: #bfc4f7;
+    margin-left: 700px;
+    margin-top: 0;
+    margin-bottom: 900px;
+    align-items: center;
+    max-height: 100%;
+    width: 500px;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 6px 6px 6px #dcd8ddad;
+}
+
+.vis-text p{
+    margin: 10px;
+    text-align: center;
+    padding:10px;
+    font-size: 20px;
+    color: #15243d;
+    font-weight: bold;
+}
+
+
+.style{
+    background-color: white;
+    width:500px;
+    height: 30px;
+    border-radius:10px 10px 0px 0px ;
+}
+
+/*VISUALISATION 2*/
+
+.vis2-cont{
+    align-items: center;
+    margin:auto;
+    height: 3400px;
+    max-width: 1200px;
+    margin-top: 100px;
+}
+
+
+.vis2{
+    width: 650px;
+    height: 800px;
+    position: sticky; /* this allows the graph to stay static and have text scroll past */
+    top: 0px;
+    text-align: center;
+}
+
+.vis2 p{
+    padding-top:790px;
+    color: rgb(136, 136, 136);
+}
+
+.however{
+    text-align: center;
+    padding:130px;
+    margin: auto;
+    padding-top:400px;
+}
+
+.however-text{
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 300px;
+    color:#15243d;
+}
+
+.however-text h4 {
+    padding-top: 500px;
+}
+
+.however img{
+    width:500px;
+    padding:50px;
+}
+
+
+
+.why{
+    text-align: center;
+    padding:130px;
+    margin: auto;
+}
+
+.why-text{
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 200px;
+    color:#15243d;
+}
+
+/*VISUALISATION 3*/
+.vis3-cont{
+    align-items: center;
+    margin:auto;
+    height: 3500px;
+    max-width: 1200px;
+    margin-top: 100px;
+}
+
+.vis3{
+    width: 650px;
+    height: 800px;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+
+.vis3 p{
+    padding-top:790px;
+    color: rgb(136, 136, 136);
+}
+
+
+
+/*VISUALISATION 4*/
+.vis4-cont{
+    align-items: center;
+    margin:auto;
+    height: 4600px;
+    max-width: 1200px;
+    margin-top: 100px;
+}
+
+.vis4{
+    width: 650px;
+    height: 800px;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+
+.vis4 p{
+    padding-top:790px;
+    color: rgb(136, 136, 136);
+    margin-right: 160px;
+}
+
+
+/*VISUALISATION 5*/
+.vis5-cont{
+    align-items: center;
+    margin:auto;
+    height: 700px;
+    max-width: 1200px;
+    margin-top: 100px;
+    padding-top: 200px;
+}
+
+.vis5{
+    width: 550px;
+    height: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.vis5 p{
+    color: rgb(136, 136, 136);
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.vis5-cont h4{
+    color:#15243d;
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.future{
+    text-align: center;
+    padding:130px;
+    padding-bottom: 0;
+    margin: auto;
+}
+
+.future-text{
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+    color:#15243d;
+}
+
+/*VISUALISATION 6*/
+
+.vis6-cont{
+    align-items: center;
+    margin:auto;
+    height: 500px;
+    max-width: 1200px;
+}
+
+.vis6{
+    width: 1000px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.vis6 p{
+    color: rgb(136, 136, 136);
+    align-items: center;
+    padding-top: 400px;
+    margin-right: 100px;
+}
+
+/*VISUALISATION  7 & 8*/
+
+.vis7-cont{
+    align-items: center;
+    margin:auto;
+    height: 2000px;
+    max-width: 1200px;
+    margin-top: 100px;
+}
+
+.vis7{
+    width: 650px;
+    height: 400px;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+
+.vis8-cont{
+    align-items: center;
+    margin:auto;
+    height: 900px;
+    max-width: 1200px;
+}
+
+
+.vis8{
+    width: 650px;
+    height: 400px;
+    position: sticky;
+    top: 400px;
+    text-align: center;
+}
+
+.vis8 p{
+    color: rgb(136, 136, 136);
+    align-items: center;
+    padding-top: 400px;
+    margin-right: 100px;
+}
+
+
+
+
+.focus{
+    text-align: center;
+    padding:130px;
+    margin: auto;
+    padding-top: 300px;
+    height: 600px;
+}
+
+.focus-text{
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+    color:#15243d;
+}
